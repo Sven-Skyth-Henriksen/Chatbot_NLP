@@ -1,0 +1,25 @@
+{"intents":[
+	{"tag": "greetings",
+	"patterns": ["Hello", "hey", "hi", "good day", "Greetings", "What's up", "how is it going ?"],
+	"responses": [	"Hi, I am a chatbot","What can I do for you ?", "Hey!"]},
+
+	{"tag": "goodbye",
+	"patterns": ["cya", "bye", "See you later", "Goodbye", "I am leaving", "Have a good day", "cao","goodbye"],
+	"responses": [	"Sad to see you go :(", "Talk to you later", "Goodbye!"]},
+
+	{"tag": "events",
+	"patterns": ["What are upcoming events", "when is the next event?", "Where can I find the next events"],
+	"responses": [	"You can find them on the side 'Events'","Please go to the Events-page"]},
+
+	{"tag": "About",
+	"patterns": ["What is Mammejongen?", "Where can I find you ?"],
+	"responses": [	"We are an ASBL","We are a group of guys doing something for a good cause", "For further Informations please check out the About-Page"]},
+
+	{"tag": "help",
+	"patterns": ["help", "Help", "Help me", "I need help", "I need some help"],
+	"responses": [	"Please fill in the 'Contact-us form' for help."]},
+
+	{"tag": "name",
+	"patterns": ["What's your name?", "who are you?","what should i call you?", "what is your name?", "what is your name?"],
+	"responses": [	"You can call me Sven!","I'm Sven", "I'm Sven the assistant of Mammejongen"]}
+]}
